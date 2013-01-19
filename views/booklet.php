@@ -45,7 +45,6 @@
             height: <?= $height ?>
         }
         var $book = $('#<?= $sdrdis_book_id ?>');
-        console.log($.extend(defaultOptions, initialOptions));
         $book.booklet($.extend(defaultOptions, initialOptions));
     });
 
